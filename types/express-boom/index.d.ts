@@ -9,7 +9,6 @@
  */
 
 import express = require('express');
-declare namespace e { }
 declare function e(): express.RequestHandler;
 export = e;
 
